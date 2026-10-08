@@ -1,0 +1,60 @@
+title: "North Australia Water Resources Digital Library"
+description: "Scientific reports, publications and data for water resources in northern Australia."
+url: "https://nawrdl.github.io"
+baseurl: "/nawrdl-v2"
+remote_theme: jcu-eresearch/jcu-research-website-theme
+plugins:
+  - jekyll-remote-theme
+readme_index:
+  enabled: false
+markdown: kramdown
+kramdown:
+  input: GFM
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+theme_settings:
+  block_separator_style: "none"
+  favicon: "/assets/images/favicon.ico"
+  project_logo: "/assets/images/nawrdl-logo-header.svg"
+  project_logo_alt: "North Australia Water Resources Digital Library logo"
+  primary_color: "#004080"
+  primary_text_color: "#F2F2F4"
+  primary_link_color: "#F2EBEF"
+  secondary_color: "#3666AB"
+  secondary_text_color: "#FFFCF5"
+  secondary_link_color: "#FFFCF5"
+  background_color: "#FFFCF5"
+  background_text_color: "#00254A"
+  background_link_color: "#00254A"
+  surface_color: "#F2EFE8"
+  surface_text_color: "#00254A"
+  surface_link_color: "#00254A"
+  text_color: "#00254A"
+  heading_color: "#004080"
+  border_color: "#004080"
+  note_color: "#3666AB"
+  note_background_color: "#EAF0F8"
+  note_text_color: "#00254A"
+  note_link_color: "#004080"
+  important_color: "#004080"
+  important_background_color: "#DCE6F3"
+  important_text_color: "#00254A"
+  important_link_color: "#004080"
+  warning_color: "#922C27"
+  warning_background_color: "#FBECEB"
+  warning_text_color: "#00254A"
+  warning_link_color: "#922C27"
+  caution_color: "#75471A"
+  caution_background_color: "#FFF4D9"
+  caution_text_color: "#00254A"
+  caution_link_color: "#75471A"
+  partner_logo_max_items_per_row: 4
+  partner_logo_max_height: "6rem"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
