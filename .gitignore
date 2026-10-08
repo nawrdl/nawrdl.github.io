@@ -1,63 +1,27 @@
+# Jekyll build output and caches
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+
+# Local Bundler settings and installed gems
+/.bundle/
+/vendor/bundle/
+/vendor/cache/
+
+# Operating system files
 .DS_Store
-.venv
-.thumbs.db
-node_modules
-.npmrc
+Thumbs.db
+Desktop.ini
 
-# Avoid duplicate copies of documents,
-# these will all be in the gh_pages branch anyway.
-public/documents
+# Editor settings and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 
-# Debug files
-search-output.json
-
-# temporary files
-~*.*
-scripts/*.log
-scripts/*.txt
-!scripts/requirements.txt
-scripts/*.out
-scripts/*.tmp
-scripts/inputs/*
-scripts/outputs/*
-
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Quasar core related directories
-.quasar
-/dist
-/quasar.config.*.temporary.compiled*
-
-# PWA related directories
-/src-pwa
-
-# Cordova related directories and files
-/src-cordova/node_modules
-/src-cordova/platforms
-/src-cordova/plugins
-/src-cordova/www
-
-# Capacitor related directories and files
-/src-capacitor/www
-/src-capacitor/node_modules
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-# local .env files
-.env.local*
-
-
+# Local environment settings
+.env
+.env.*
+!.env.example
